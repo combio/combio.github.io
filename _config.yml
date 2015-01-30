@@ -1,0 +1,25 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               ComBio
+tagline:             '生物信息学博客'
+description:         '一个学习生物信息学的博客'
+url:                 http://combio.github.io
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              CodingFish
+  email:             codingfish@yeah.net
+
+# Custom vars
+version:             1.0.0
