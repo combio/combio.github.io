@@ -305,6 +305,10 @@ a.sidebar-nav-item:focus {
   margin-bottom: 4em;
 }
 
+.post p {
+	text-indent: 2em;
+}
+
 /* Blog post or page title */
 .page-title,
 .post-title,
