@@ -10,8 +10,8 @@ highlighter:         pygments
 
 # Setup
 title:               ComBio
-tagline:             '生物信息学博客'
-description:         '一个学习生物信息学的博客'
+tagline:             '走南闯北的骏马——马博士博客'
+description:         '一个对科研有想法的博士。领域：园艺学、设施园艺工程、丛枝菌根真菌（AMF）、生物信息学'
 url:                 http://combio.github.io
 baseurl:             /
 paginate:            5
