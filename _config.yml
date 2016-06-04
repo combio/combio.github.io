@@ -12,8 +12,8 @@ github_username:    combio
 #relative_permalinks: true
 
 # Setup
-title:               ComBio
-tagline:             '走南闯北的骏马——马博士博客'
+title:               马博士博客
+tagline:             '走南闯北的骏马'
 description:         '一个对科研有想法的博士。领域：园艺学、设施园艺工程、丛枝菌根真菌（AMF）、生物信息学'
 header-img:          img/home-bg.jpg
 url:                 http://combio.github.io
