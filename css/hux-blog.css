@@ -9,6 +9,13 @@
     padding-right: 5%;
   }
 }
+
+.post-container p {
+	text-align: justify;
+	text-justify: inter-ideograph;
+	text-indent: 2em;
+}
+
 .sidebar-container {
   color: #bfbfbf;
   font-size: 14px;
