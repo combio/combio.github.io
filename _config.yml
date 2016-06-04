@@ -15,6 +15,7 @@ github_username:    combio
 title:               ComBio
 tagline:             '走南闯北的骏马——马博士博客'
 description:         '一个对科研有想法的博士。领域：园艺学、设施园艺工程、丛枝菌根真菌（AMF）、生物信息学'
+header-img:          img/home-bg.jpg
 url:                 http://combio.github.io
 baseurl:             http://combio.github.io
 paginate:            5
