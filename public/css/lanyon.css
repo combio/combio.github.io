@@ -299,6 +299,9 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
+  text-align: justify;
+  -moz-text-align-last: justify;
+  text-justify: inter-ideograph;
   margin-bottom: 4em;
 }
 
