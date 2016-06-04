@@ -9,7 +9,7 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">首页</a>
+    <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">首页</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -25,14 +25,13 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">下载</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+    <a class="sidebar-nav-item" href="https://github.com/{{ site.github_username }}">GitHub</a>
     <span class="sidebar-nav-item">当前版本 v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }} <a href='http://combio.diveinedu.io'>ComBio</a>. All rights reserved.
+      &copy; {{ site.time | date: '%Y' }} <a href='http://combio.github.io'>ComBio</a>. All rights reserved.
     </p>
   </div>
 </div>
